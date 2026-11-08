@@ -1,0 +1,6 @@
+{
+  "n": 1000000,
+  "seed": 9142,
+  "latent_angle_oracle_accuracy": 0.846406,
+  "caveat": "Optimistic latent-angle benchmark, not image BIO; assumes fully observed cue and angles."
+}

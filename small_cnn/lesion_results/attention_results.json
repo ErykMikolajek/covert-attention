@@ -1,0 +1,1447 @@
+{
+  "accuracy_loss_penalty": 2,
+  "groups": [
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        17
+      ],
+      "validation_effect_drop": 0.0370137798709228,
+      "validation_accuracy_drop": 0.009499999999999953,
+      "validation_objective": 0.018013779870922897,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.10484140471635262,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.7955,
+      "effect_drop": 0.07652048752507279,
+      "accuracy_drop": 0.003375000000000017,
+      "objective": 0.06977048752507276,
+      "random_objective_mean": -0.0049112586901118626,
+      "p_random_objective": 0.08,
+      "scores": {
+        "accuracy": [
+          0.7955,
+          0.731375,
+          0.991
+        ],
+        "six_class_accuracy": [
+          0.7955,
+          0.731375,
+          0.991
+        ],
+        "cross_entropy": [
+          0.4516281764626815,
+          0.5475581060783336,
+          0.031231936207123993
+        ],
+        "dprime": [
+          1.6937757507681102,
+          1.7724839347759882,
+          4.901351614915076
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.10484140471635262,
+          "search": 0.276,
+          "context": 0.011500000000000066
+        },
+        "hit_valid": 0.8757815756565236,
+        "hit_invalid": 0.770940170940171,
+        "search_by_set": {
+          "1": 0.8635,
+          "2": 0.78,
+          "4": 0.6945,
+          "8": 0.5875
+        },
+        "context_old": 0.99675,
+        "context_new": 0.98525
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        17,
+        29,
+        38,
+        42
+      ],
+      "validation_effect_drop": 0.09311006453863613,
+      "validation_accuracy_drop": 0.010000000000000009,
+      "validation_objective": 0.07311006453863611,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.08482594243327879,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.7915,
+      "effect_drop": 0.09653594980814661,
+      "accuracy_drop": 0.00737500000000002,
+      "objective": 0.08178594980814657,
+      "random_objective_mean": -0.02809553302123746,
+      "p_random_objective": 0.04477611940298507,
+      "scores": {
+        "accuracy": [
+          0.7915,
+          0.639375,
+          0.902625
+        ],
+        "six_class_accuracy": [
+          0.7915,
+          0.639375,
+          0.902625
+        ],
+        "cross_entropy": [
+          0.4642449798864238,
+          0.8800826086605407,
+          0.2234295698210948
+        ],
+        "dprime": [
+          1.6793915601649758,
+          1.8512668478348373,
+          4.089352970977315
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.08482594243327879,
+          "search": 0.275,
+          "context": 0.07125000000000004
+        },
+        "hit_valid": 0.8899541475614839,
+        "hit_invalid": 0.8051282051282052,
+        "search_by_set": {
+          "1": 0.789,
+          "2": 0.685,
+          "4": 0.5695,
+          "8": 0.514
+        },
+        "context_old": 0.93825,
+        "context_new": 0.867
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        17,
+        29,
+        38,
+        42,
+        26,
+        2,
+        11,
+        34
+      ],
+      "validation_effect_drop": 0.09506366649223796,
+      "validation_accuracy_drop": 0.008000000000000007,
+      "validation_objective": 0.07906366649223795,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.08925371326371745,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.795125,
+      "effect_drop": 0.09210817897770796,
+      "accuracy_drop": 0.003750000000000031,
+      "objective": 0.08460817897770789,
+      "random_objective_mean": -0.10033126503920792,
+      "p_random_objective": 0.004975124378109453,
+      "scores": {
+        "accuracy": [
+          0.795125,
+          0.589,
+          0.78
+        ],
+        "six_class_accuracy": [
+          0.795125,
+          0.589,
+          0.78
+        ],
+        "cross_entropy": [
+          0.46966835526530665,
+          0.9210784678051253,
+          0.46674920443072
+        ],
+        "dprime": [
+          1.661105892638084,
+          1.849581595094142,
+          3.8132551423334817
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.08925371326371745,
+          "search": 0.17200000000000004,
+          "context": 0.07250000000000001
+        },
+        "hit_valid": 0.8499374739474781,
+        "hit_invalid": 0.7606837606837606,
+        "search_by_set": {
+          "1": 0.681,
+          "2": 0.6155,
+          "4": 0.5505,
+          "8": 0.509
+        },
+        "context_old": 0.81625,
+        "context_new": 0.74375
+      },
+      "paired_effect_drop_ci95": [
+        0.06033687469494055,
+        0.12419624629920584
+      ],
+      "criterion_control": {
+        "validation_baseline_far": 0.14738292011019283,
+        "validation_selected_threshold": 0.2678651809692383,
+        "test_baseline_far": 0.17162698412698413,
+        "test_matched_far": 0.17328042328042328,
+        "test_uncalibrated_lesion_far": 0.2371031746031746,
+        "baseline_hit_gap": 0.1813618922414254,
+        "matched_hit_gap": 0.136672331420143,
+        "matched_hit_gap_drop": 0.04468956082128239,
+        "matched_hit_gap_drop_ci95": [
+          0.01859888201280448,
+          0.07254301115493277
+        ],
+        "auroc": {
+          "baseline": {
+            "valid": 0.8985763606308625,
+            "invalid": 0.8293978655089767,
+            "gap": 0.0691784951218859
+          },
+          "lesion": {
+            "valid": 0.8861955543645831,
+            "invalid": 0.8256212408990187,
+            "gap": 0.06057431346556441
+          }
+        }
+      },
+      "q_random_objective_bh": 0.014925373134328358
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        3
+      ],
+      "validation_effect_drop": -0.0020000000000000018,
+      "validation_accuracy_drop": -0.0010000000000000009,
+      "validation_objective": -0.0020000000000000018,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.16700000000000004,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.80925,
+      "effect_drop": 0.0004999999999999449,
+      "accuracy_drop": 0.0,
+      "objective": 0.0004999999999999449,
+      "random_objective_mean": -0.1039687500000001,
+      "p_random_objective": 0.08,
+      "scores": {
+        "accuracy": [
+          0.79825,
+          0.80925,
+          0.993125
+        ],
+        "six_class_accuracy": [
+          0.79825,
+          0.80925,
+          0.993125
+        ],
+        "cross_entropy": [
+          0.4394860093258621,
+          0.410066341515366,
+          0.025463076647759635
+        ],
+        "dprime": [
+          1.6941397378910452,
+          1.7498097717666514,
+          4.919696876025897
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.2082570016709241,
+          "search": 0.16700000000000004,
+          "context": 0.008750000000000036
+        },
+        "hit_valid": 0.791162984576907,
+        "hit_invalid": 0.582905982905983,
+        "search_by_set": {
+          "1": 0.889,
+          "2": 0.84,
+          "4": 0.786,
+          "8": 0.722
+        },
+        "context_old": 0.9975,
+        "context_new": 0.98875
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        3,
+        7,
+        60,
+        2
+      ],
+      "validation_effect_drop": 0.010000000000000009,
+      "validation_accuracy_drop": 0.009000000000000008,
+      "validation_objective": -0.008000000000000007,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.15749999999999997,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.796375,
+      "effect_drop": 0.010000000000000009,
+      "accuracy_drop": 0.01287499999999997,
+      "objective": -0.01574999999999993,
+      "random_objective_mean": -0.24476500000000004,
+      "p_random_objective": 0.029850746268656716,
+      "scores": {
+        "accuracy": [
+          0.757125,
+          0.796375,
+          0.98225
+        ],
+        "six_class_accuracy": [
+          0.757125,
+          0.796375,
+          0.98225
+        ],
+        "cross_entropy": [
+          0.5079320736407111,
+          0.427453817183256,
+          0.05395109810168892
+        ],
+        "dprime": [
+          1.710522311373961,
+          1.6815638403585171,
+          4.689175467452496
+        ],
+        "task_identity_accuracy": 0.9999583333333333,
+        "effects": {
+          "posner": 0.2476053056294824,
+          "search": 0.15749999999999997,
+          "context": 0.022500000000000075
+        },
+        "hit_valid": 0.6373488953730722,
+        "hit_invalid": 0.38974358974358975,
+        "search_by_set": {
+          "1": 0.8775,
+          "2": 0.8255,
+          "4": 0.7625,
+          "8": 0.72
+        },
+        "context_old": 0.9935,
+        "context_new": 0.971
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        3,
+        7,
+        60,
+        2,
+        13,
+        42,
+        55,
+        34
+      ],
+      "validation_effect_drop": -0.03799999999999992,
+      "validation_accuracy_drop": 0.014000000000000012,
+      "validation_objective": -0.06599999999999995,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.2025,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.790625,
+      "effect_drop": -0.03500000000000003,
+      "accuracy_drop": 0.018625000000000003,
+      "objective": -0.07225000000000004,
+      "random_objective_mean": -0.310655,
+      "p_random_objective": 0.0845771144278607,
+      "scores": {
+        "accuracy": [
+          0.745,
+          0.790625,
+          0.961125
+        ],
+        "six_class_accuracy": [
+          0.745,
+          0.790625,
+          0.960875
+        ],
+        "cross_entropy": [
+          0.5135229684839324,
+          0.4300656923701707,
+          0.10458764805670008
+        ],
+        "dprime": [
+          1.580695429172755,
+          1.6248893525547015,
+          3.931413017575532
+        ],
+        "task_identity_accuracy": 0.9999166666666667,
+        "effects": {
+          "posner": 0.17865136114406643,
+          "search": 0.2025,
+          "context": 0.01574999999999993
+        },
+        "hit_valid": 0.6094205919132972,
+        "hit_invalid": 0.4307692307692308,
+        "search_by_set": {
+          "1": 0.878,
+          "2": 0.8285,
+          "4": 0.7805,
+          "8": 0.6755
+        },
+        "context_old": 0.969,
+        "context_new": 0.95325
+      },
+      "paired_effect_drop_ci95": [
+        -0.054,
+        -0.016237500000000068
+      ],
+      "q_random_objective_bh": 0.0845771144278607
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 1,
+      "units": [
+        29
+      ],
+      "validation_effect_drop": 0.008999999999999897,
+      "validation_accuracy_drop": 0.000500000000000056,
+      "validation_objective": 0.007999999999999785,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.07074999999999998,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.840375,
+      "effect_drop": -0.010499999999999954,
+      "accuracy_drop": 0.010249999999999981,
+      "objective": -0.030999999999999917,
+      "random_objective_mean": -0.05474999999999989,
+      "p_random_objective": 0.56,
+      "scores": {
+        "accuracy": [
+          0.696375,
+          0.61925,
+          0.840375
+        ],
+        "six_class_accuracy": [
+          0.695875,
+          0.617625,
+          0.84
+        ],
+        "cross_entropy": [
+          0.579508223567571,
+          0.6607945724681887,
+          0.3610431802568402
+        ],
+        "dprime": [
+          1.0479269154935382,
+          0.7701077003088483,
+          2.0537549720838357
+        ],
+        "task_identity_accuracy": 0.9985833333333334,
+        "effects": {
+          "posner": 0.19197600139659332,
+          "search": 0.10350000000000004,
+          "context": 0.07074999999999998
+        },
+        "hit_valid": 0.6911213005418925,
+        "hit_invalid": 0.49914529914529915,
+        "search_by_set": {
+          "1": 0.6745,
+          "2": 0.637,
+          "4": 0.5945,
+          "8": 0.571
+        },
+        "context_old": 0.87575,
+        "context_new": 0.805
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 4,
+      "units": [
+        29,
+        3,
+        48,
+        22
+      ],
+      "validation_effect_drop": 0.0129999999999999,
+      "validation_accuracy_drop": -0.0034999999999999476,
+      "validation_objective": 0.0129999999999999,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.0695,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.838,
+      "effect_drop": -0.00924999999999998,
+      "accuracy_drop": 0.012624999999999997,
+      "objective": -0.034499999999999975,
+      "random_objective_mean": -0.16663749999999988,
+      "p_random_objective": 0.1890547263681592,
+      "scores": {
+        "accuracy": [
+          0.6895,
+          0.537875,
+          0.838
+        ],
+        "six_class_accuracy": [
+          0.688,
+          0.537,
+          0.837875
+        ],
+        "cross_entropy": [
+          0.5874911946964478,
+          0.8824910828968641,
+          0.36175585563963125
+        ],
+        "dprime": [
+          1.0157862190009146,
+          0.8119619224228962,
+          2.036034178342578
+        ],
+        "task_identity_accuracy": 0.9985416666666667,
+        "effects": {
+          "posner": 0.1547610649736536,
+          "search": 0.09300000000000008,
+          "context": 0.0695
+        },
+        "hit_valid": 0.81117132138391,
+        "hit_invalid": 0.6564102564102564,
+        "search_by_set": {
+          "1": 0.5935,
+          "2": 0.549,
+          "4": 0.5085,
+          "8": 0.5005
+        },
+        "context_old": 0.87275,
+        "context_new": 0.80325
+      }
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 8,
+      "units": [
+        29,
+        3,
+        48,
+        22,
+        2,
+        55,
+        35,
+        37
+      ],
+      "validation_effect_drop": -0.006000000000000005,
+      "validation_accuracy_drop": 0.0030000000000000027,
+      "validation_objective": -0.01200000000000001,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.06899999999999995,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.83375,
+      "effect_drop": -0.008749999999999925,
+      "accuracy_drop": 0.016874999999999973,
+      "objective": -0.04249999999999987,
+      "random_objective_mean": -0.2708999999999999,
+      "p_random_objective": 0.04477611940298507,
+      "scores": {
+        "accuracy": [
+          0.61175,
+          0.576625,
+          0.83375
+        ],
+        "six_class_accuracy": [
+          0.60375,
+          0.57375,
+          0.83375
+        ],
+        "cross_entropy": [
+          0.6630798815819463,
+          0.7121519379638587,
+          0.3690992361402781
+        ],
+        "dprime": [
+          0.911252501022479,
+          0.48031573753166135,
+          2.005503230077516
+        ],
+        "task_identity_accuracy": 0.993625,
+        "effects": {
+          "posner": 0.02148687309170849,
+          "search": 0.15300000000000002,
+          "context": 0.06899999999999995
+        },
+        "hit_valid": 0.9274697790746145,
+        "hit_invalid": 0.905982905982906,
+        "search_by_set": {
+          "1": 0.6575,
+          "2": 0.6145,
+          "4": 0.53,
+          "8": 0.5045
+        },
+        "context_old": 0.86825,
+        "context_new": 0.79925
+      },
+      "paired_effect_drop_ci95": [
+        -0.0185,
+        0.0013812499999999663
+      ],
+      "q_random_objective_bh": 0.06716417910447761
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        13
+      ],
+      "validation_effect_drop": 0.07109715681144257,
+      "validation_accuracy_drop": 0.0040000000000000036,
+      "validation_objective": 0.06309715681144257,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.0992122786203653,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.799125,
+      "effect_drop": 0.0821496136210601,
+      "accuracy_drop": -0.00024999999999997247,
+      "objective": 0.0821496136210601,
+      "random_objective_mean": -0.0003243097343503601,
+      "p_random_objective": 0.16,
+      "scores": {
+        "accuracy": [
+          0.799125,
+          0.80925,
+          0.988875
+        ],
+        "six_class_accuracy": [
+          0.799125,
+          0.80925,
+          0.988875
+        ],
+        "cross_entropy": [
+          0.4444944663252703,
+          0.41002989010950236,
+          0.035533110918980315
+        ],
+        "dprime": [
+          1.7042838072502282,
+          1.7499988335917025,
+          4.823448164598167
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.0992122786203653,
+          "search": 0.16749999999999998,
+          "context": 0.012749999999999928
+        },
+        "hit_valid": 0.8786994581075448,
+        "hit_invalid": 0.7794871794871795,
+        "search_by_set": {
+          "1": 0.8895,
+          "2": 0.8405,
+          "4": 0.785,
+          "8": 0.722
+        },
+        "context_old": 0.99525,
+        "context_new": 0.9825
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        13,
+        42,
+        14,
+        37
+      ],
+      "validation_effect_drop": 0.07109715681144257,
+      "validation_accuracy_drop": 0.0030000000000000027,
+      "validation_objective": 0.06509715681144257,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.09754491721978176,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.799875,
+      "effect_drop": 0.08381697502164365,
+      "accuracy_drop": -0.0010000000000000009,
+      "objective": 0.08381697502164365,
+      "random_objective_mean": -0.02576393831742568,
+      "p_random_objective": 0.06467661691542288,
+      "scores": {
+        "accuracy": [
+          0.799875,
+          0.791125,
+          0.86525
+        ],
+        "six_class_accuracy": [
+          0.799875,
+          0.791125,
+          0.862875
+        ],
+        "cross_entropy": [
+          0.44420803573697465,
+          0.4313259800803119,
+          0.28800660182663196
+        ],
+        "dprime": [
+          1.7076055439520137,
+          1.7179528568590507,
+          4.276475444540079
+        ],
+        "task_identity_accuracy": 0.999,
+        "effects": {
+          "posner": 0.09754491721978176,
+          "search": 0.22350000000000003,
+          "context": 0.05149999999999999
+        },
+        "hit_valid": 0.8770320967069613,
+        "hit_invalid": 0.7794871794871795,
+        "search_by_set": {
+          "1": 0.891,
+          "2": 0.83,
+          "4": 0.776,
+          "8": 0.6675
+        },
+        "context_old": 0.891,
+        "context_new": 0.8395
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        13,
+        42,
+        14,
+        37,
+        22,
+        2,
+        27,
+        7
+      ],
+      "validation_effect_drop": 0.07280655852084428,
+      "validation_accuracy_drop": 0.0050000000000000044,
+      "validation_objective": 0.06280655852084427,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.09675327682830803,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.79925,
+      "effect_drop": 0.08460861541311737,
+      "accuracy_drop": -0.0003750000000000142,
+      "objective": 0.08460861541311737,
+      "random_objective_mean": -0.06035278634170932,
+      "p_random_objective": 0.024875621890547265,
+      "scores": {
+        "accuracy": [
+          0.79925,
+          0.66,
+          0.782375
+        ],
+        "six_class_accuracy": [
+          0.79925,
+          0.66,
+          0.724375
+        ],
+        "cross_entropy": [
+          0.44833034468367694,
+          0.6396051820343716,
+          0.49806278045774127
+        ],
+        "dprime": [
+          1.70020447738932,
+          1.6215262115547335,
+          3.5343032684831894
+        ],
+        "task_identity_accuracy": 0.9715833333333334,
+        "effects": {
+          "posner": 0.09675327682830803,
+          "search": 0.3420000000000001,
+          "context": 0.04125000000000001
+        },
+        "hit_valid": 0.8745310546060858,
+        "hit_invalid": 0.7777777777777778,
+        "search_by_set": {
+          "1": 0.8505,
+          "2": 0.7135,
+          "4": 0.5675,
+          "8": 0.5085
+        },
+        "context_old": 0.803,
+        "context_new": 0.76175
+      },
+      "paired_effect_drop_ci95": [
+        0.05391926123064097,
+        0.11426208569810065
+      ],
+      "criterion_control": {
+        "validation_baseline_far": 0.14738292011019283,
+        "validation_selected_threshold": 0.48810672760009766,
+        "test_baseline_far": 0.17162698412698413,
+        "test_matched_far": 0.16997354497354497,
+        "test_uncalibrated_lesion_far": 0.2576058201058201,
+        "baseline_hit_gap": 0.1813618922414254,
+        "matched_hit_gap": 0.17798512913144016,
+        "matched_hit_gap_drop": 0.003376763109985248,
+        "matched_hit_gap_drop_ci95": [
+          -0.01707404794732848,
+          0.022244293384351736
+        ],
+        "auroc": {
+          "baseline": {
+            "valid": 0.8985763606308625,
+            "invalid": 0.8293978655089767,
+            "gap": 0.0691784951218859
+          },
+          "lesion": {
+            "valid": 0.8953080097306858,
+            "invalid": 0.8276811151811152,
+            "gap": 0.0676268945495706
+          }
+        }
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        27
+      ],
+      "validation_effect_drop": 0.006000000000000005,
+      "validation_accuracy_drop": -0.0024999999999999467,
+      "validation_objective": 0.006000000000000005,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.16849999999999998,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.804625,
+      "effect_drop": -0.0010000000000000009,
+      "accuracy_drop": 0.00462499999999999,
+      "objective": -0.010249999999999981,
+      "random_objective_mean": -0.05596875000000003,
+      "p_random_objective": 0.64,
+      "scores": {
+        "accuracy": [
+          0.798875,
+          0.804625,
+          0.98375
+        ],
+        "six_class_accuracy": [
+          0.798875,
+          0.804625,
+          0.98375
+        ],
+        "cross_entropy": [
+          0.4350655935274087,
+          0.4226863071292845,
+          0.0503594055908048
+        ],
+        "dprime": [
+          1.685246852604637,
+          1.7244746626180003,
+          4.527096192879446
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.18311333425964527,
+          "search": 0.16849999999999998,
+          "context": 0.010499999999999954
+        },
+        "hit_valid": 0.8053355564818675,
+        "hit_invalid": 0.6222222222222222,
+        "search_by_set": {
+          "1": 0.887,
+          "2": 0.8265,
+          "4": 0.7865,
+          "8": 0.7185
+        },
+        "context_old": 0.989,
+        "context_new": 0.9785
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        27,
+        11,
+        36,
+        55
+      ],
+      "validation_effect_drop": 0.08799999999999997,
+      "validation_accuracy_drop": 0.028000000000000025,
+      "validation_objective": 0.03199999999999992,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.09649999999999992,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.7795,
+      "effect_drop": 0.07100000000000006,
+      "accuracy_drop": 0.029750000000000054,
+      "objective": 0.011499999999999955,
+      "random_objective_mean": -0.16679750000000004,
+      "p_random_objective": 0.014925373134328358,
+      "scores": {
+        "accuracy": [
+          0.757625,
+          0.7795,
+          0.98675
+        ],
+        "six_class_accuracy": [
+          0.757625,
+          0.7795,
+          0.98675
+        ],
+        "cross_entropy": [
+          0.4966273162411655,
+          0.4777339966049701,
+          0.052497097791351165
+        ],
+        "dprime": [
+          1.548600571497305,
+          1.628168679287856,
+          4.44244421504246
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.17539003074642917,
+          "search": 0.09649999999999992,
+          "context": 0.008000000000000007
+        },
+        "hit_valid": 0.6540225093789078,
+        "hit_invalid": 0.47863247863247865,
+        "search_by_set": {
+          "1": 0.815,
+          "2": 0.795,
+          "4": 0.7895,
+          "8": 0.7185
+        },
+        "context_old": 0.99075,
+        "context_new": 0.98275
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        27,
+        11,
+        36,
+        55,
+        26,
+        3,
+        13,
+        29
+      ],
+      "validation_effect_drop": 0.07399999999999995,
+      "validation_accuracy_drop": 0.020500000000000074,
+      "validation_objective": 0.03299999999999981,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.10299999999999998,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.783375,
+      "effect_drop": 0.0645,
+      "accuracy_drop": 0.02587499999999998,
+      "objective": 0.012750000000000039,
+      "random_objective_mean": -0.2966212500000001,
+      "p_random_objective": 0.009950248756218905,
+      "scores": {
+        "accuracy": [
+          0.768375,
+          0.783375,
+          0.973
+        ],
+        "six_class_accuracy": [
+          0.768375,
+          0.783375,
+          0.972375
+        ],
+        "cross_entropy": [
+          0.5004235492918842,
+          0.4634696483224393,
+          0.08903092708406134
+        ],
+        "dprime": [
+          1.5371496215439415,
+          1.6390414904762642,
+          4.304205535913486
+        ],
+        "task_identity_accuracy": 0.9997916666666666,
+        "effects": {
+          "posner": 0.08040529707891109,
+          "search": 0.10299999999999998,
+          "context": 0.00550000000000006
+        },
+        "hit_valid": 0.8957899124635265,
+        "hit_invalid": 0.8153846153846154,
+        "search_by_set": {
+          "1": 0.8235,
+          "2": 0.8,
+          "4": 0.7895,
+          "8": 0.7205
+        },
+        "context_old": 0.97575,
+        "context_new": 0.97025
+      },
+      "paired_effect_drop_ci95": [
+        0.0465,
+        0.08276249999999993
+      ]
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 1,
+      "units": [
+        58
+      ],
+      "validation_effect_drop": 0.027999999999999914,
+      "validation_accuracy_drop": 0.010000000000000009,
+      "validation_objective": 0.007999999999999896,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.054749999999999965,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.837625,
+      "effect_drop": 0.00550000000000006,
+      "accuracy_drop": 0.013000000000000012,
+      "objective": -0.020499999999999963,
+      "random_objective_mean": -0.022062499999999912,
+      "p_random_objective": 0.72,
+      "scores": {
+        "accuracy": [
+          0.66825,
+          0.639625,
+          0.837625
+        ],
+        "six_class_accuracy": [
+          0.6675,
+          0.6395,
+          0.8375
+        ],
+        "cross_entropy": [
+          0.6108386521993334,
+          0.63388243493638,
+          0.37370847299555143
+        ],
+        "dprime": [
+          1.074766821123567,
+          0.718168591088598,
+          2.0346688217870166
+        ],
+        "task_identity_accuracy": 0.9994166666666666,
+        "effects": {
+          "posner": 0.24521684605052674,
+          "search": 0.10950000000000004,
+          "context": 0.054749999999999965
+        },
+        "hit_valid": 0.4947894956231763,
+        "hit_invalid": 0.24957264957264957,
+        "search_by_set": {
+          "1": 0.6905,
+          "2": 0.6615,
+          "4": 0.6255,
+          "8": 0.581
+        },
+        "context_old": 0.865,
+        "context_new": 0.81025
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 4,
+      "units": [
+        58,
+        11,
+        2,
+        48
+      ],
+      "validation_effect_drop": 0.029999999999999916,
+      "validation_accuracy_drop": 0.009000000000000008,
+      "validation_objective": 0.0119999999999999,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.05624999999999991,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.836125,
+      "effect_drop": 0.004000000000000115,
+      "accuracy_drop": 0.014499999999999957,
+      "objective": -0.0249999999999998,
+      "random_objective_mean": -0.08308874999999989,
+      "p_random_objective": 0.208955223880597,
+      "scores": {
+        "accuracy": [
+          0.670125,
+          0.63375,
+          0.836125
+        ],
+        "six_class_accuracy": [
+          0.669375,
+          0.633625,
+          0.836
+        ],
+        "cross_entropy": [
+          0.6083797170040408,
+          0.6364294550797326,
+          0.3780587525297368
+        ],
+        "dprime": [
+          1.0765986816011093,
+          0.6836325156076423,
+          2.040244026735559
+        ],
+        "task_identity_accuracy": 0.9994166666666666,
+        "effects": {
+          "posner": 0.245882365515546,
+          "search": 0.09350000000000003,
+          "context": 0.05624999999999991
+        },
+        "hit_valid": 0.5022926219258024,
+        "hit_invalid": 0.2564102564102564,
+        "search_by_set": {
+          "1": 0.6745,
+          "2": 0.6535,
+          "4": 0.626,
+          "8": 0.581
+        },
+        "context_old": 0.86425,
+        "context_new": 0.808
+      }
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 8,
+      "units": [
+        58,
+        11,
+        2,
+        48,
+        27,
+        51,
+        34,
+        7
+      ],
+      "validation_effect_drop": 0.038999999999999924,
+      "validation_accuracy_drop": 0.013500000000000068,
+      "validation_objective": 0.011999999999999789,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.04425000000000001,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.826625,
+      "effect_drop": 0.016000000000000014,
+      "accuracy_drop": 0.02399999999999991,
+      "objective": -0.031999999999999806,
+      "random_objective_mean": -0.16289749999999992,
+      "p_random_objective": 0.03980099502487562,
+      "scores": {
+        "accuracy": [
+          0.68175,
+          0.519125,
+          0.826625
+        ],
+        "six_class_accuracy": [
+          0.68125,
+          0.518625,
+          0.826375
+        ],
+        "cross_entropy": [
+          0.5996647593831256,
+          0.8763981262901198,
+          0.38732416246485574
+        ],
+        "dprime": [
+          1.0685670915933563,
+          0.6476259740120585,
+          1.925146270027724
+        ],
+        "task_identity_accuracy": 0.9990833333333333,
+        "effects": {
+          "posner": 0.26300773470427496,
+          "search": 0.04250000000000009,
+          "context": 0.04425000000000001
+        },
+        "hit_valid": 0.5518966235931638,
+        "hit_invalid": 0.28888888888888886,
+        "search_by_set": {
+          "1": 0.543,
+          "2": 0.5245,
+          "4": 0.5085,
+          "8": 0.5005
+        },
+        "context_old": 0.84875,
+        "context_new": 0.8045
+      },
+      "paired_effect_drop_ci95": [
+        -0.000749999999999999,
+        0.03188124999999997
+      ]
+    }
+  ],
+  "primary": [
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        17,
+        29,
+        38,
+        42,
+        26,
+        2,
+        11,
+        34
+      ],
+      "validation_effect_drop": 0.09506366649223796,
+      "validation_accuracy_drop": 0.008000000000000007,
+      "validation_objective": 0.07906366649223795,
+      "baseline_effect": 0.1813618922414254,
+      "lesioned_effect": 0.08925371326371745,
+      "baseline_accuracy": 0.798875,
+      "lesioned_accuracy": 0.795125,
+      "effect_drop": 0.09210817897770796,
+      "accuracy_drop": 0.003750000000000031,
+      "objective": 0.08460817897770789,
+      "random_objective_mean": -0.10033126503920792,
+      "p_random_objective": 0.004975124378109453,
+      "scores": {
+        "accuracy": [
+          0.795125,
+          0.589,
+          0.78
+        ],
+        "six_class_accuracy": [
+          0.795125,
+          0.589,
+          0.78
+        ],
+        "cross_entropy": [
+          0.46966835526530665,
+          0.9210784678051253,
+          0.46674920443072
+        ],
+        "dprime": [
+          1.661105892638084,
+          1.849581595094142,
+          3.8132551423334817
+        ],
+        "task_identity_accuracy": 1.0,
+        "effects": {
+          "posner": 0.08925371326371745,
+          "search": 0.17200000000000004,
+          "context": 0.07250000000000001
+        },
+        "hit_valid": 0.8499374739474781,
+        "hit_invalid": 0.7606837606837606,
+        "search_by_set": {
+          "1": 0.681,
+          "2": 0.6155,
+          "4": 0.5505,
+          "8": 0.509
+        },
+        "context_old": 0.81625,
+        "context_new": 0.74375
+      },
+      "paired_effect_drop_ci95": [
+        0.06033687469494055,
+        0.12419624629920584
+      ],
+      "criterion_control": {
+        "validation_baseline_far": 0.14738292011019283,
+        "validation_selected_threshold": 0.2678651809692383,
+        "test_baseline_far": 0.17162698412698413,
+        "test_matched_far": 0.17328042328042328,
+        "test_uncalibrated_lesion_far": 0.2371031746031746,
+        "baseline_hit_gap": 0.1813618922414254,
+        "matched_hit_gap": 0.136672331420143,
+        "matched_hit_gap_drop": 0.04468956082128239,
+        "matched_hit_gap_drop_ci95": [
+          0.01859888201280448,
+          0.07254301115493277
+        ],
+        "auroc": {
+          "baseline": {
+            "valid": 0.8985763606308625,
+            "invalid": 0.8293978655089767,
+            "gap": 0.0691784951218859
+          },
+          "lesion": {
+            "valid": 0.8861955543645831,
+            "invalid": 0.8256212408990187,
+            "gap": 0.06057431346556441
+          }
+        }
+      },
+      "q_random_objective_bh": 0.014925373134328358
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        3,
+        7,
+        60,
+        2,
+        13,
+        42,
+        55,
+        34
+      ],
+      "validation_effect_drop": -0.03799999999999992,
+      "validation_accuracy_drop": 0.014000000000000012,
+      "validation_objective": -0.06599999999999995,
+      "baseline_effect": 0.16749999999999998,
+      "lesioned_effect": 0.2025,
+      "baseline_accuracy": 0.80925,
+      "lesioned_accuracy": 0.790625,
+      "effect_drop": -0.03500000000000003,
+      "accuracy_drop": 0.018625000000000003,
+      "objective": -0.07225000000000004,
+      "random_objective_mean": -0.310655,
+      "p_random_objective": 0.0845771144278607,
+      "scores": {
+        "accuracy": [
+          0.745,
+          0.790625,
+          0.961125
+        ],
+        "six_class_accuracy": [
+          0.745,
+          0.790625,
+          0.960875
+        ],
+        "cross_entropy": [
+          0.5135229684839324,
+          0.4300656923701707,
+          0.10458764805670008
+        ],
+        "dprime": [
+          1.580695429172755,
+          1.6248893525547015,
+          3.931413017575532
+        ],
+        "task_identity_accuracy": 0.9999166666666667,
+        "effects": {
+          "posner": 0.17865136114406643,
+          "search": 0.2025,
+          "context": 0.01574999999999993
+        },
+        "hit_valid": 0.6094205919132972,
+        "hit_invalid": 0.4307692307692308,
+        "search_by_set": {
+          "1": 0.878,
+          "2": 0.8285,
+          "4": 0.7805,
+          "8": 0.6755
+        },
+        "context_old": 0.969,
+        "context_new": 0.95325
+      },
+      "paired_effect_drop_ci95": [
+        -0.054,
+        -0.016237500000000068
+      ],
+      "q_random_objective_bh": 0.0845771144278607
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 8,
+      "units": [
+        29,
+        3,
+        48,
+        22,
+        2,
+        55,
+        35,
+        37
+      ],
+      "validation_effect_drop": -0.006000000000000005,
+      "validation_accuracy_drop": 0.0030000000000000027,
+      "validation_objective": -0.01200000000000001,
+      "baseline_effect": 0.060250000000000026,
+      "lesioned_effect": 0.06899999999999995,
+      "baseline_accuracy": 0.850625,
+      "lesioned_accuracy": 0.83375,
+      "effect_drop": -0.008749999999999925,
+      "accuracy_drop": 0.016874999999999973,
+      "objective": -0.04249999999999987,
+      "random_objective_mean": -0.2708999999999999,
+      "p_random_objective": 0.04477611940298507,
+      "scores": {
+        "accuracy": [
+          0.61175,
+          0.576625,
+          0.83375
+        ],
+        "six_class_accuracy": [
+          0.60375,
+          0.57375,
+          0.83375
+        ],
+        "cross_entropy": [
+          0.6630798815819463,
+          0.7121519379638587,
+          0.3690992361402781
+        ],
+        "dprime": [
+          0.911252501022479,
+          0.48031573753166135,
+          2.005503230077516
+        ],
+        "task_identity_accuracy": 0.993625,
+        "effects": {
+          "posner": 0.02148687309170849,
+          "search": 0.15300000000000002,
+          "context": 0.06899999999999995
+        },
+        "hit_valid": 0.9274697790746145,
+        "hit_invalid": 0.905982905982906,
+        "search_by_set": {
+          "1": 0.6575,
+          "2": 0.6145,
+          "4": 0.53,
+          "8": 0.5045
+        },
+        "context_old": 0.86825,
+        "context_new": 0.79925
+      },
+      "paired_effect_drop_ci95": [
+        -0.0185,
+        0.0013812499999999663
+      ],
+      "q_random_objective_bh": 0.06716417910447761
+    }
+  ]
+}

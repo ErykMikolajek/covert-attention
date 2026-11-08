@@ -1,0 +1,281 @@
+{
+  "accuracy_loss_penalty": 2,
+  "groups": [
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        17
+      ],
+      "validation_effect_drop": 0.0370137798709228,
+      "validation_accuracy_drop": 0.009499999999999953,
+      "validation_objective": 0.018013779870922897
+    },
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        17,
+        29,
+        38,
+        42
+      ],
+      "validation_effect_drop": 0.09311006453863613,
+      "validation_accuracy_drop": 0.010000000000000009,
+      "validation_objective": 0.07311006453863611
+    },
+    {
+      "mode": "mean",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        17,
+        29,
+        38,
+        42,
+        26,
+        2,
+        11,
+        34
+      ],
+      "validation_effect_drop": 0.09506366649223796,
+      "validation_accuracy_drop": 0.008000000000000007,
+      "validation_objective": 0.07906366649223795
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        3
+      ],
+      "validation_effect_drop": -0.0020000000000000018,
+      "validation_accuracy_drop": -0.0010000000000000009,
+      "validation_objective": -0.0020000000000000018
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        3,
+        7,
+        60,
+        2
+      ],
+      "validation_effect_drop": 0.010000000000000009,
+      "validation_accuracy_drop": 0.009000000000000008,
+      "validation_objective": -0.008000000000000007
+    },
+    {
+      "mode": "mean",
+      "target": "search",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        3,
+        7,
+        60,
+        2,
+        13,
+        42,
+        55,
+        34
+      ],
+      "validation_effect_drop": -0.03799999999999992,
+      "validation_accuracy_drop": 0.014000000000000012,
+      "validation_objective": -0.06599999999999995
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 1,
+      "units": [
+        29
+      ],
+      "validation_effect_drop": 0.008999999999999897,
+      "validation_accuracy_drop": 0.000500000000000056,
+      "validation_objective": 0.007999999999999785
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 4,
+      "units": [
+        29,
+        3,
+        48,
+        22
+      ],
+      "validation_effect_drop": 0.0129999999999999,
+      "validation_accuracy_drop": -0.0034999999999999476,
+      "validation_objective": 0.0129999999999999
+    },
+    {
+      "mode": "mean",
+      "target": "context",
+      "noise": 0.14,
+      "k": 8,
+      "units": [
+        29,
+        3,
+        48,
+        22,
+        2,
+        55,
+        35,
+        37
+      ],
+      "validation_effect_drop": -0.006000000000000005,
+      "validation_accuracy_drop": 0.0030000000000000027,
+      "validation_objective": -0.01200000000000001
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        13
+      ],
+      "validation_effect_drop": 0.07109715681144257,
+      "validation_accuracy_drop": 0.0040000000000000036,
+      "validation_objective": 0.06309715681144257
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        13,
+        42,
+        14,
+        37
+      ],
+      "validation_effect_drop": 0.07109715681144257,
+      "validation_accuracy_drop": 0.0030000000000000027,
+      "validation_objective": 0.06509715681144257
+    },
+    {
+      "mode": "zero",
+      "target": "posner",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        13,
+        42,
+        14,
+        37,
+        22,
+        2,
+        27,
+        7
+      ],
+      "validation_effect_drop": 0.07280655852084428,
+      "validation_accuracy_drop": 0.0050000000000000044,
+      "validation_objective": 0.06280655852084427
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 1,
+      "units": [
+        27
+      ],
+      "validation_effect_drop": 0.006000000000000005,
+      "validation_accuracy_drop": -0.0024999999999999467,
+      "validation_objective": 0.006000000000000005
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 4,
+      "units": [
+        27,
+        11,
+        36,
+        55
+      ],
+      "validation_effect_drop": 0.08799999999999997,
+      "validation_accuracy_drop": 0.028000000000000025,
+      "validation_objective": 0.03199999999999992
+    },
+    {
+      "mode": "zero",
+      "target": "search",
+      "noise": 0.08,
+      "k": 8,
+      "units": [
+        27,
+        11,
+        36,
+        55,
+        26,
+        3,
+        13,
+        29
+      ],
+      "validation_effect_drop": 0.07399999999999995,
+      "validation_accuracy_drop": 0.020500000000000074,
+      "validation_objective": 0.03299999999999981
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 1,
+      "units": [
+        58
+      ],
+      "validation_effect_drop": 0.027999999999999914,
+      "validation_accuracy_drop": 0.010000000000000009,
+      "validation_objective": 0.007999999999999896
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 4,
+      "units": [
+        58,
+        11,
+        2,
+        48
+      ],
+      "validation_effect_drop": 0.029999999999999916,
+      "validation_accuracy_drop": 0.009000000000000008,
+      "validation_objective": 0.0119999999999999
+    },
+    {
+      "mode": "zero",
+      "target": "context",
+      "noise": 0.14,
+      "k": 8,
+      "units": [
+        58,
+        11,
+        2,
+        48,
+        27,
+        51,
+        34,
+        7
+      ],
+      "validation_effect_drop": 0.038999999999999924,
+      "validation_accuracy_drop": 0.013500000000000068,
+      "validation_objective": 0.011999999999999789
+    }
+  ]
+}

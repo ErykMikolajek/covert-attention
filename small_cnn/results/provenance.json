@@ -1,0 +1,16 @@
+{
+  "python": "3.11.2 (v3.11.2:878ead1ac1, Feb  7 2023, 10:02:41) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "torch": "2.5.1",
+    "Pillow": "11.0.0",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2"
+  },
+  "source_sha256": {
+    "papers/mmc2.pdf": "7387aa0ed16f1a37cb92a6504bf20235cfcf6c6d50a8baf43fe5e2952e56f738",
+    "papers/srivastava-et-al-2025-emergent-neuronal-mechanisms-mediating-covert-attention-in-convolutional-neural-networks.pdf": "377389db38c565e4a71a57304ee3a556f5186a695769ca757ba93a78564827b3",
+    "Code/Posner_80%_stimgen_training_AUC.ipynb": "1736a0c5cb7991db22ae4f893f22d41db391bee84f89191fdfaa7cde8fc5482f"
+  }
+}

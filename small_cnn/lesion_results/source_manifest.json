@@ -1,0 +1,9 @@
+{
+  "small_cnn/test_lesion.py": "4b14e596287facc880d0db472304747bc481e6cdc8b6809695811b120e614bfe",
+  "small_cnn/lesion_checks.py": "5310855c9c920cf3dd0100a99c0516eaab177ab22062e089a0d3e6021a89c3fd",
+  "small_cnn/summarize_lesion.py": "def98ddb356aac1561e013455e52d224dc1e86d383106bb24d9b972e2ec05b86",
+  "small_cnn/lesion.py": "bf74034eb3fc809167784c71caefb44686d612f8fd88519e23cf3d2b21437347",
+  "small_cnn/lesion_attention.py": "73c29685614e74bebdea24b398e1c2d91e33cd6eb977fabea0447132edc52f96",
+  "small_cnn/lesion_readout_controls.py": "11c72f98d7648182914a263f9a5b9ce5bf280f2ecef5a5caca0de6743c5203f4",
+  "checkpoint": "8afe9a2581c06c753011d30ffb35c09b573fc3445a4a6e0e1ebf628a6f5c7059"
+}

@@ -1,0 +1,30 @@
+{
+  "n_val": 2000,
+  "n_test": 8000,
+  "random_groups": 200,
+  "checkpoint_sha256": "8afe9a2581c06c753011d30ffb35c09b573fc3445a4a6e0e1ebf628a6f5c7059",
+  "checkpoint_epoch": 25,
+  "train_seed": 142,
+  "selection_seed": 7142,
+  "confirmation_seed": 8143,
+  "train_noise_seed": 62001,
+  "selection_noise_seed": 62002,
+  "confirmation_noise_seed": 62003,
+  "noise_levels": [
+    0.04,
+    0.08,
+    0.14
+  ],
+  "primary_noise_by_task": {
+    "posner": 0.08,
+    "search": 0.08,
+    "context": 0.14
+  },
+  "primary_group_size": 8,
+  "primary_mode": "mean",
+  "primary_strategy": "selective",
+  "unit_indexing": "zero-based; classifier[2] post-ReLU, 64 units",
+  "python": "3.11.2",
+  "torch": "2.5.1",
+  "numpy": "2.0.2"
+}

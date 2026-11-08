@@ -1,0 +1,767 @@
+{
+  "parameters": 142366,
+  "best_epoch": 25,
+  "training_seconds": 797.7320241928101,
+  "evaluations": {
+    "0.0": [
+      {
+        "task": "posner",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.84125,
+        "ci95": [
+          0.8295980884783399,
+          0.8522470674339221
+        ],
+        "task_given_accuracy": 0.84125,
+        "hit_rate": 0.805,
+        "false_alarm_rate": 0.1225
+      },
+      {
+        "task": "posner",
+        "condition": "absent",
+        "n": 2000,
+        "accuracy": 0.8775,
+        "ci95": [
+          0.8624026344653455,
+          0.8911499417462672
+        ],
+        "task_given_accuracy": 0.8775,
+        "hit_rate": null,
+        "false_alarm_rate": 0.1225
+      },
+      {
+        "task": "posner",
+        "condition": "invalid",
+        "n": 413,
+        "accuracy": 0.7142857142857143,
+        "ci95": [
+          0.6688976120134261,
+          0.7557241148007882
+        ],
+        "task_given_accuracy": 0.7142857142857143,
+        "hit_rate": 0.7142857142857143,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "posner",
+        "condition": "valid",
+        "n": 1587,
+        "accuracy": 0.8286074354127284,
+        "ci95": [
+          0.8092781063868371,
+          0.8463497072182384
+        ],
+        "task_given_accuracy": 0.8286074354127284,
+        "hit_rate": 0.8286074354127284,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "search",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9990405214831674,
+          0.9999999999999999
+        ],
+        "task_given_accuracy": 1.0,
+        "hit_rate": 1.0,
+        "false_alarm_rate": 0.0
+      },
+      {
+        "task": "search",
+        "condition": "set_1",
+        "n": 1000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9961731014136095,
+          1.0
+        ],
+        "task_given_accuracy": 1.0,
+        "hit_rate": 1.0,
+        "false_alarm_rate": 0.0
+      },
+      {
+        "task": "search",
+        "condition": "set_2",
+        "n": 1000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9961731014136095,
+          1.0
+        ],
+        "task_given_accuracy": 1.0,
+        "hit_rate": 1.0,
+        "false_alarm_rate": 0.0
+      },
+      {
+        "task": "search",
+        "condition": "set_4",
+        "n": 1000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9961731014136095,
+          1.0
+        ],
+        "task_given_accuracy": 1.0,
+        "hit_rate": 1.0,
+        "false_alarm_rate": 0.0
+      },
+      {
+        "task": "search",
+        "condition": "set_8",
+        "n": 1000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9961731014136095,
+          1.0
+        ],
+        "task_given_accuracy": 1.0,
+        "hit_rate": 1.0,
+        "false_alarm_rate": 0.0
+      },
+      {
+        "task": "context",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9990405214831674,
+          0.9999999999999999
+        ],
+        "task_given_accuracy": 1.0
+      },
+      {
+        "task": "context",
+        "condition": "new",
+        "n": 2000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9980828823994873,
+          1.0000000000000002
+        ],
+        "task_given_accuracy": 1.0
+      },
+      {
+        "task": "context",
+        "condition": "old",
+        "n": 2000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9980828823994873,
+          1.0000000000000002
+        ],
+        "task_given_accuracy": 1.0
+      }
+    ],
+    "0.04": [
+      {
+        "task": "posner",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.83225,
+        "ci95": [
+          0.8203530285712431,
+          0.8435093979543217
+        ],
+        "task_given_accuracy": 0.83225,
+        "hit_rate": 0.8035,
+        "false_alarm_rate": 0.139
+      },
+      {
+        "task": "posner",
+        "condition": "absent",
+        "n": 2000,
+        "accuracy": 0.861,
+        "ci95": [
+          0.845144883539001,
+          0.8754709575534287
+        ],
+        "task_given_accuracy": 0.861,
+        "hit_rate": null,
+        "false_alarm_rate": 0.139
+      },
+      {
+        "task": "posner",
+        "condition": "invalid",
+        "n": 413,
+        "accuracy": 0.7070217917675545,
+        "ci95": [
+          0.6613799791506695,
+          0.7488477908223851
+        ],
+        "task_given_accuracy": 0.7070217917675545,
+        "hit_rate": 0.7070217917675545,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "posner",
+        "condition": "valid",
+        "n": 1587,
+        "accuracy": 0.8286074354127284,
+        "ci95": [
+          0.8092781063868371,
+          0.8463497072182384
+        ],
+        "task_given_accuracy": 0.8286074354127284,
+        "hit_rate": 0.8286074354127284,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "search",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.97175,
+        "ci95": [
+          0.9661452381186216,
+          0.976449493900747
+        ],
+        "task_given_accuracy": 0.97175,
+        "hit_rate": 0.963,
+        "false_alarm_rate": 0.0195
+      },
+      {
+        "task": "search",
+        "condition": "set_1",
+        "n": 1000,
+        "accuracy": 0.994,
+        "ci95": [
+          0.9869716557675544,
+          0.9972473684290918
+        ],
+        "task_given_accuracy": 0.994,
+        "hit_rate": 0.994,
+        "false_alarm_rate": 0.006
+      },
+      {
+        "task": "search",
+        "condition": "set_2",
+        "n": 1000,
+        "accuracy": 0.989,
+        "ci95": [
+          0.9804104032716243,
+          0.9938468899108859
+        ],
+        "task_given_accuracy": 0.989,
+        "hit_rate": 0.988,
+        "false_alarm_rate": 0.01
+      },
+      {
+        "task": "search",
+        "condition": "set_4",
+        "n": 1000,
+        "accuracy": 0.969,
+        "ci95": [
+          0.956334233864468,
+          0.9780761352614977
+        ],
+        "task_given_accuracy": 0.969,
+        "hit_rate": 0.966,
+        "false_alarm_rate": 0.028
+      },
+      {
+        "task": "search",
+        "condition": "set_8",
+        "n": 1000,
+        "accuracy": 0.935,
+        "ci95": [
+          0.9179941456177196,
+          0.9486764526121207
+        ],
+        "task_given_accuracy": 0.935,
+        "hit_rate": 0.904,
+        "false_alarm_rate": 0.034
+      },
+      {
+        "task": "context",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9990405214831674,
+          0.9999999999999999
+        ],
+        "task_given_accuracy": 1.0
+      },
+      {
+        "task": "context",
+        "condition": "new",
+        "n": 2000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9980828823994873,
+          1.0000000000000002
+        ],
+        "task_given_accuracy": 1.0
+      },
+      {
+        "task": "context",
+        "condition": "old",
+        "n": 2000,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9980828823994873,
+          1.0000000000000002
+        ],
+        "task_given_accuracy": 1.0
+      }
+    ],
+    "0.08": [
+      {
+        "task": "posner",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.809,
+        "ci95": [
+          0.7965238019027061,
+          0.8208832403738915
+        ],
+        "task_given_accuracy": 0.809,
+        "hit_rate": 0.778,
+        "false_alarm_rate": 0.16
+      },
+      {
+        "task": "posner",
+        "condition": "absent",
+        "n": 2000,
+        "accuracy": 0.84,
+        "ci95": [
+          0.8232831411176247,
+          0.8554132189140264
+        ],
+        "task_given_accuracy": 0.84,
+        "hit_rate": null,
+        "false_alarm_rate": 0.16
+      },
+      {
+        "task": "posner",
+        "condition": "invalid",
+        "n": 413,
+        "accuracy": 0.6561743341404358,
+        "ci95": [
+          0.6091139570477379,
+          0.7003561150371979
+        ],
+        "task_given_accuracy": 0.6561743341404358,
+        "hit_rate": 0.6561743341404358,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "posner",
+        "condition": "valid",
+        "n": 1587,
+        "accuracy": 0.8097038437303088,
+        "ci95": [
+          0.7896519827770891,
+          0.8282599450980683
+        ],
+        "task_given_accuracy": 0.8097038437303088,
+        "hit_rate": 0.8097038437303088,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "search",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.81075,
+        "ci95": [
+          0.7983148760096576,
+          0.822588808092131
+        ],
+        "task_given_accuracy": 0.81075,
+        "hit_rate": 0.807,
+        "false_alarm_rate": 0.1855
+      },
+      {
+        "task": "search",
+        "condition": "set_1",
+        "n": 1000,
+        "accuracy": 0.891,
+        "ci95": [
+          0.8701670973953542,
+          0.9088402679100885
+        ],
+        "task_given_accuracy": 0.891,
+        "hit_rate": 0.886,
+        "false_alarm_rate": 0.104
+      },
+      {
+        "task": "search",
+        "condition": "set_2",
+        "n": 1000,
+        "accuracy": 0.872,
+        "ci95": [
+          0.8498599807293441,
+          0.8912928067223815
+        ],
+        "task_given_accuracy": 0.872,
+        "hit_rate": 0.858,
+        "false_alarm_rate": 0.114
+      },
+      {
+        "task": "search",
+        "condition": "set_4",
+        "n": 1000,
+        "accuracy": 0.786,
+        "ci95": [
+          0.7595106735781231,
+          0.8103003404304617
+        ],
+        "task_given_accuracy": 0.786,
+        "hit_rate": 0.792,
+        "false_alarm_rate": 0.22
+      },
+      {
+        "task": "search",
+        "condition": "set_8",
+        "n": 1000,
+        "accuracy": 0.694,
+        "ci95": [
+          0.6647401014845274,
+          0.721775061863953
+        ],
+        "task_given_accuracy": 0.694,
+        "hit_rate": 0.692,
+        "false_alarm_rate": 0.304
+      },
+      {
+        "task": "context",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.994,
+        "ci95": [
+          0.991087372665614,
+          0.9959646625597556
+        ],
+        "task_given_accuracy": 0.994
+      },
+      {
+        "task": "context",
+        "condition": "new",
+        "n": 2000,
+        "accuracy": 0.992,
+        "ci95": [
+          0.9870438100676844,
+          0.9950697462134108
+        ],
+        "task_given_accuracy": 0.992
+      },
+      {
+        "task": "context",
+        "condition": "old",
+        "n": 2000,
+        "accuracy": 0.996,
+        "ci95": [
+          0.9921264415501131,
+          0.9979717777901781
+        ],
+        "task_given_accuracy": 0.996
+      }
+    ],
+    "0.14": [
+      {
+        "task": "posner",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.7045,
+        "ci95": [
+          0.690169342987971,
+          0.7184382302986445
+        ],
+        "task_given_accuracy": 0.7045,
+        "hit_rate": 0.67,
+        "false_alarm_rate": 0.261
+      },
+      {
+        "task": "posner",
+        "condition": "absent",
+        "n": 2000,
+        "accuracy": 0.739,
+        "ci95": [
+          0.7193069014395947,
+          0.7577767163473601
+        ],
+        "task_given_accuracy": 0.739,
+        "hit_rate": null,
+        "false_alarm_rate": 0.261
+      },
+      {
+        "task": "posner",
+        "condition": "invalid",
+        "n": 413,
+        "accuracy": 0.5351089588377724,
+        "ci95": [
+          0.4869028579648352,
+          0.582667933434104
+        ],
+        "task_given_accuracy": 0.5351089588377724,
+        "hit_rate": 0.5351089588377724,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "posner",
+        "condition": "valid",
+        "n": 1587,
+        "accuracy": 0.7051039697542533,
+        "ci95": [
+          0.6821951786762455,
+          0.7270221814933653
+        ],
+        "task_given_accuracy": 0.7051039697542533,
+        "hit_rate": 0.7051039697542533,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "search",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.6425,
+        "ci95": [
+          0.627517234014706,
+          0.6572093146079966
+        ],
+        "task_given_accuracy": 0.643,
+        "hit_rate": 0.585,
+        "false_alarm_rate": 0.2995
+      },
+      {
+        "task": "search",
+        "condition": "set_1",
+        "n": 1000,
+        "accuracy": 0.703,
+        "ci95": [
+          0.6739454894927203,
+          0.7305007896812051
+        ],
+        "task_given_accuracy": 0.705,
+        "hit_rate": 0.67,
+        "false_alarm_rate": 0.262
+      },
+      {
+        "task": "search",
+        "condition": "set_2",
+        "n": 1000,
+        "accuracy": 0.673,
+        "ci95": [
+          0.6433098960832607,
+          0.7013659970058482
+        ],
+        "task_given_accuracy": 0.673,
+        "hit_rate": 0.614,
+        "false_alarm_rate": 0.268
+      },
+      {
+        "task": "search",
+        "condition": "set_4",
+        "n": 1000,
+        "accuracy": 0.63,
+        "ci95": [
+          0.5996311529703994,
+          0.659373853397139
+        ],
+        "task_given_accuracy": 0.63,
+        "hit_rate": 0.548,
+        "false_alarm_rate": 0.288
+      },
+      {
+        "task": "search",
+        "condition": "set_8",
+        "n": 1000,
+        "accuracy": 0.564,
+        "ci95": [
+          0.5330775678917667,
+          0.5944325890891751
+        ],
+        "task_given_accuracy": 0.564,
+        "hit_rate": 0.508,
+        "false_alarm_rate": 0.38
+      },
+      {
+        "task": "context",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.85525,
+        "ci95": [
+          0.844005147656196,
+          0.8658131428575944
+        ],
+        "task_given_accuracy": 0.85625
+      },
+      {
+        "task": "context",
+        "condition": "new",
+        "n": 2000,
+        "accuracy": 0.8255,
+        "ci95": [
+          0.8082461942700879,
+          0.8415057621719783
+        ],
+        "task_given_accuracy": 0.8275
+      },
+      {
+        "task": "context",
+        "condition": "old",
+        "n": 2000,
+        "accuracy": 0.885,
+        "ci95": [
+          0.870274078546382,
+          0.8982497409012232
+        ],
+        "task_given_accuracy": 0.885
+      }
+    ],
+    "0.2": [
+      {
+        "task": "posner",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.554,
+        "ci95": [
+          0.5385509652182817,
+          0.5693454111019004
+        ],
+        "task_given_accuracy": 0.6075,
+        "hit_rate": 0.425,
+        "false_alarm_rate": 0.2255
+      },
+      {
+        "task": "posner",
+        "condition": "absent",
+        "n": 2000,
+        "accuracy": 0.683,
+        "ci95": [
+          0.6622727072305161,
+          0.7030256277276963
+        ],
+        "task_given_accuracy": 0.742,
+        "hit_rate": null,
+        "false_alarm_rate": 0.2255
+      },
+      {
+        "task": "posner",
+        "condition": "invalid",
+        "n": 413,
+        "accuracy": 0.3583535108958838,
+        "ci95": [
+          0.3136068843925985,
+          0.4057109572047853
+        ],
+        "task_given_accuracy": 0.39951573849878935,
+        "hit_rate": 0.3583535108958838,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "posner",
+        "condition": "valid",
+        "n": 1587,
+        "accuracy": 0.44234404536862004,
+        "ci95": [
+          0.4180763567824242,
+          0.4668901917413258
+        ],
+        "task_given_accuracy": 0.4921235034656585,
+        "hit_rate": 0.44234404536862004,
+        "false_alarm_rate": null
+      },
+      {
+        "task": "search",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.55775,
+        "ci95": [
+          0.5423104171238295,
+          0.5730787631074763
+        ],
+        "task_given_accuracy": 0.56725,
+        "hit_rate": 0.524,
+        "false_alarm_rate": 0.3885
+      },
+      {
+        "task": "search",
+        "condition": "set_1",
+        "n": 1000,
+        "accuracy": 0.59,
+        "ci95": [
+          0.5592278714615878,
+          0.620083286792862
+        ],
+        "task_given_accuracy": 0.616,
+        "hit_rate": 0.528,
+        "false_alarm_rate": 0.3
+      },
+      {
+        "task": "search",
+        "condition": "set_2",
+        "n": 1000,
+        "accuracy": 0.566,
+        "ci95": [
+          0.5350860732775359,
+          0.5964087761090605
+        ],
+        "task_given_accuracy": 0.578,
+        "hit_rate": 0.51,
+        "false_alarm_rate": 0.348
+      },
+      {
+        "task": "search",
+        "condition": "set_4",
+        "n": 1000,
+        "accuracy": 0.561,
+        "ci95": [
+          0.5300657570538558,
+          0.5914673613186046
+        ],
+        "task_given_accuracy": 0.561,
+        "hit_rate": 0.514,
+        "false_alarm_rate": 0.392
+      },
+      {
+        "task": "search",
+        "condition": "set_8",
+        "n": 1000,
+        "accuracy": 0.514,
+        "ci95": [
+          0.48302753849609636,
+          0.5448653083434848
+        ],
+        "task_given_accuracy": 0.514,
+        "hit_rate": 0.544,
+        "false_alarm_rate": 0.514
+      },
+      {
+        "task": "context",
+        "condition": "all",
+        "n": 4000,
+        "accuracy": 0.68,
+        "ci95": [
+          0.6653769529481156,
+          0.6942776347858247
+        ],
+        "task_given_accuracy": 0.68625
+      },
+      {
+        "task": "context",
+        "condition": "new",
+        "n": 2000,
+        "accuracy": 0.6555,
+        "ci95": [
+          0.6343929505202464,
+          0.676010825905994
+        ],
+        "task_given_accuracy": 0.663
+      },
+      {
+        "task": "context",
+        "condition": "old",
+        "n": 2000,
+        "accuracy": 0.7045,
+        "ci95": [
+          0.6841264888827439,
+          0.7240894100186464
+        ],
+        "task_given_accuracy": 0.7095
+      }
+    ]
+  }
+}

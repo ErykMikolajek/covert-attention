@@ -1,0 +1,18 @@
+# Wyniki jednej małej CNN dla trzech zadań
+
+Model: **142,366 parametrów**, najlepsza epoka 25; pełny trening 13.3 min na CPU.
+
+Checkpoint wybrano wyłącznie na walidacji przy SD=0,04. Test: 4 000 prób na zadanie (12 000 ogółem).
+
+## Trafność na odłożonym zbiorze testowym
+
+Głównym warunkiem jest SD=0,04, ustalone przed treningiem. Decyzja spośród sześciu klas; przypadkowa decyzja przy znanym zadaniu to 50%.
+
+| Zadanie | Accuracy | 95% CI Wilsona | Accuracy przy znanym zadaniu |
+|---|---:|---:|---:|
+| posner | 83.23% | 82.04%–84.35% | 83.23% |
+| search | 97.17% | 96.61%–97.64% | 97.17% |
+| context | 100.00% | 99.90%–100.00% | 100.00% |
+
+Dla Posnera optymistyczny obserwator z bezszumowym dostępem do ukrytych kątów i strony wskazówki osiąga około 84,64% (milion prób, `angle_oracle.py`). Nakładanie rozkładów kątów wyklucza oczekiwanie 100% trafności. To inny benchmark niż obrazowy BIO z publikacji.
+

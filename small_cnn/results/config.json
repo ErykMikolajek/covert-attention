@@ -1,0 +1,25 @@
+{
+  "epochs": 25,
+  "n_train": 10000,
+  "n_val": 2000,
+  "n_test": 4000,
+  "seed": 42,
+  "out": "/Users/eryk/Documents/Projekty/covert_attention_explainable/small_cnn/results",
+  "evaluate": false,
+  "image_size": 64,
+  "train_noise": [
+    0.02,
+    0.04,
+    0.08,
+    0.14
+  ],
+  "validation_noise": 0.04,
+  "labels": [
+    "posner_absent",
+    "posner_present",
+    "search_absent",
+    "search_present",
+    "context_left",
+    "context_right"
+  ]
+}

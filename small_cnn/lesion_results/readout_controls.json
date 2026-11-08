@@ -1,0 +1,269 @@
+[
+  {
+    "target": "posner",
+    "units": [
+      7,
+      51,
+      34,
+      58,
+      36,
+      48,
+      3,
+      14
+    ],
+    "noise": 0.08,
+    "threshold_checks": [
+      {
+        "task": "posner",
+        "baseline_auroc": 0.88251646875,
+        "lesioned_auroc": 0.842473,
+        "baseline_threshold": -0.12093067169189453,
+        "lesion_threshold": -2.0681800842285156,
+        "baseline_calibrated_accuracy": 0.803,
+        "lesion_calibrated_accuracy": 0.777625,
+        "calibrated_accuracy_drop": 0.025375000000000036
+      },
+      {
+        "task": "search",
+        "baseline_auroc": 0.8941319375,
+        "lesioned_auroc": 0.84811175,
+        "baseline_threshold": 0.015583038330078125,
+        "lesion_threshold": 0.12667274475097656,
+        "baseline_calibrated_accuracy": 0.80925,
+        "lesion_calibrated_accuracy": 0.75725,
+        "calibrated_accuracy_drop": 0.052000000000000046
+      },
+      {
+        "task": "context",
+        "baseline_auroc": 0.999794125,
+        "lesioned_auroc": 0.9984355625,
+        "baseline_threshold": -0.07881546020507812,
+        "lesion_threshold": 0.1849522590637207,
+        "baseline_calibrated_accuracy": 0.993,
+        "lesion_calibrated_accuracy": 0.980375,
+        "calibrated_accuracy_drop": 0.012624999999999997
+      }
+    ],
+    "within_task_mean_scores": {
+      "accuracy": [
+        0.775125,
+        0.752375,
+        0.981375
+      ],
+      "six_class_accuracy": [
+        0.775125,
+        0.752375,
+        0.981375
+      ],
+      "cross_entropy": [
+        0.5067850331148697,
+        0.5009908920268868,
+        0.06467981395240477
+      ],
+      "dprime": [
+        1.5171999513243648,
+        1.3902824169398509,
+        4.1626381664214565
+      ],
+      "task_identity_accuracy": 1.0,
+      "effects": {
+        "posner": 0.2582115767609724,
+        "search": 0.12449999999999994,
+        "context": 0.007749999999999924
+      },
+      "hit_valid": 0.7590662776156732,
+      "hit_invalid": 0.5008547008547009,
+      "search_by_set": {
+        "1": 0.8045,
+        "2": 0.7575,
+        "4": 0.7675,
+        "8": 0.68
+      },
+      "context_old": 0.98525,
+      "context_new": 0.9775
+    },
+    "within_task_mean_accuracy_drop": [
+      0.02375000000000005,
+      0.05687500000000001,
+      0.011874999999999969
+    ]
+  },
+  {
+    "target": "search",
+    "units": [
+      23,
+      11,
+      51,
+      27,
+      37,
+      2,
+      35,
+      36
+    ],
+    "noise": 0.08,
+    "threshold_checks": [
+      {
+        "task": "posner",
+        "baseline_auroc": 0.88251646875,
+        "lesioned_auroc": 0.8803566875,
+        "baseline_threshold": -0.12093067169189453,
+        "lesion_threshold": -0.4453270435333252,
+        "baseline_calibrated_accuracy": 0.803,
+        "lesion_calibrated_accuracy": 0.7985,
+        "calibrated_accuracy_drop": 0.0045000000000000595
+      },
+      {
+        "task": "search",
+        "baseline_auroc": 0.8941319375,
+        "lesioned_auroc": 0.7592680625,
+        "baseline_threshold": 0.015583038330078125,
+        "lesion_threshold": 6.013955116271973,
+        "baseline_calibrated_accuracy": 0.80925,
+        "lesion_calibrated_accuracy": 0.707125,
+        "calibrated_accuracy_drop": 0.10212500000000002
+      },
+      {
+        "task": "context",
+        "baseline_auroc": 0.999794125,
+        "lesioned_auroc": 0.9985585625,
+        "baseline_threshold": -0.07881546020507812,
+        "lesion_threshold": 1.2846875190734863,
+        "baseline_calibrated_accuracy": 0.993,
+        "lesion_calibrated_accuracy": 0.98325,
+        "calibrated_accuracy_drop": 0.009750000000000036
+      }
+    ],
+    "within_task_mean_scores": {
+      "accuracy": [
+        0.798875,
+        0.68275,
+        0.97925
+      ],
+      "six_class_accuracy": [
+        0.798875,
+        0.68275,
+        0.97925
+      ],
+      "cross_entropy": [
+        0.44378113814020376,
+        0.7144421155707111,
+        0.07686530589726177
+      ],
+      "dprime": [
+        1.6825563192755881,
+        1.423361834283788,
+        4.185192961542053
+      ],
+      "task_identity_accuracy": 1.0,
+      "effects": {
+        "posner": 0.18836409757626937,
+        "search": 0.3355,
+        "context": 0.016000000000000014
+      },
+      "hit_valid": 0.8174239266360984,
+      "hit_invalid": 0.629059829059829,
+      "search_by_set": {
+        "1": 0.858,
+        "2": 0.7595,
+        "4": 0.591,
+        "8": 0.5225
+      },
+      "context_old": 0.98725,
+      "context_new": 0.97125
+    },
+    "within_task_mean_accuracy_drop": [
+      0.0,
+      0.12650000000000006,
+      0.014000000000000012
+    ]
+  },
+  {
+    "target": "context",
+    "units": [
+      42,
+      38,
+      36,
+      26,
+      27,
+      51,
+      34,
+      29
+    ],
+    "noise": 0.14,
+    "threshold_checks": [
+      {
+        "task": "posner",
+        "baseline_auroc": 0.774478,
+        "lesioned_auroc": 0.7635024375,
+        "baseline_threshold": 0.09140300750732422,
+        "lesion_threshold": -0.8514213562011719,
+        "baseline_calibrated_accuracy": 0.70125,
+        "lesion_calibrated_accuracy": 0.689125,
+        "calibrated_accuracy_drop": 0.012125000000000052
+      },
+      {
+        "task": "search",
+        "baseline_auroc": 0.69534440625,
+        "lesioned_auroc": 0.65404246875,
+        "baseline_threshold": -0.17050409317016602,
+        "lesion_threshold": -1.6816556453704834,
+        "baseline_calibrated_accuracy": 0.64225,
+        "lesion_calibrated_accuracy": 0.608625,
+        "calibrated_accuracy_drop": 0.033625000000000016
+      },
+      {
+        "task": "context",
+        "baseline_auroc": 0.92783375,
+        "lesioned_auroc": 0.87595671875,
+        "baseline_threshold": 0.4411330223083496,
+        "lesion_threshold": 7.936098575592041,
+        "baseline_calibrated_accuracy": 0.848125,
+        "lesion_calibrated_accuracy": 0.792625,
+        "calibrated_accuracy_drop": 0.055499999999999994
+      }
+    ],
+    "within_task_mean_scores": {
+      "accuracy": [
+        0.68925,
+        0.572125,
+        0.50875
+      ],
+      "six_class_accuracy": [
+        0.689,
+        0.572125,
+        0.50875
+      ],
+      "cross_entropy": [
+        0.587677064700131,
+        0.6982337670905645,
+        2.3764570606919464
+      ],
+      "dprime": [
+        1.0284654038189527,
+        0.4832894745330062,
+        1.556747838159354
+      ],
+      "task_identity_accuracy": 0.99975,
+      "effects": {
+        "posner": 0.19857205459539767,
+        "search": -0.02400000000000002,
+        "context": 0.0040000000000000036
+      },
+      "hit_valid": 0.649854105877449,
+      "hit_invalid": 0.4512820512820513,
+      "search_by_set": {
+        "1": 0.5545,
+        "2": 0.5675,
+        "4": 0.588,
+        "8": 0.5785
+      },
+      "context_old": 0.51075,
+      "context_new": 0.50675
+    },
+    "within_task_mean_accuracy_drop": [
+      0.014124999999999943,
+      0.0675,
+      0.34187499999999993
+    ]
+  }
+]

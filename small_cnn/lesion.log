@@ -1,0 +1,13 @@
+Caching training means
+Active dense units 24
+Cached noise 0.04 elapsed 35.6
+Cached noise 0.08 elapsed 46.9
+Cached noise 0.14 elapsed 58.2
+Groups frozen; evaluating confirmation stimuli
+Evaluated noise 0.04 elapsed 60.5
+Evaluated noise 0.08 elapsed 61.9
+Evaluated noise 0.14 elapsed 63.2
+DONE 66.9 seconds; primary:
+posner [7, 51, 34, 58, 36, 48, 3, 14] [0.266, 0.05337500000000006, 0.01574999999999993] selectivity 0.21262499999999995 q 0.014925373134328358
+search [23, 11, 51, 27, 37, 2, 35, 36] [0.009375000000000022, 0.30800000000000005, 0.03962500000000002] selectivity 0.26837500000000003 q 0.022388059701492536
+context [42, 38, 36, 26, 27, 51, 34, 29] [0.06474999999999997, 0.127, 0.34975] selectivity 0.22275 q 0.024875621890547265

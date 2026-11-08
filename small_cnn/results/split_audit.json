@@ -1,0 +1,14 @@
+{
+  "train_val": {
+    "shared_clean_images": 613,
+    "shared_new_contexts": 0
+  },
+  "train_test": {
+    "shared_clean_images": 711,
+    "shared_new_contexts": 0
+  },
+  "val_test": {
+    "shared_clean_images": 570,
+    "shared_new_contexts": 0
+  }
+}
